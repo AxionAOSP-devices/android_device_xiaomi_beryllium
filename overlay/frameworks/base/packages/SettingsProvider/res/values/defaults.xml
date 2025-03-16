@@ -19,7 +19,7 @@
 <resources>
 
     <!-- Default for Settings.Global.DEVICE_NAME $1=MODEL-->
-    <string name="def_device_name_simple">Xiaomi Pocophone F1</string>
+    <string name="def_device_name_simple">POCO F1</string>
 
 </resources>
 
