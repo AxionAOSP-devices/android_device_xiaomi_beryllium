@@ -12,4 +12,4 @@ persist.vendor.qcom.bluetooth.soc=cherokee
 vendor.hw.fm.init=0
 
 # USB
-vendor.usb.product_string=Xiaomi Pocophone F1
+vendor.usb.product_string=POCO F1
