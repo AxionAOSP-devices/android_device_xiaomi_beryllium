@@ -18,6 +18,9 @@ AXION_PROCESSOR := Snapdragon_845
 AXION_CAMERA_REAR_INFO := 12,5
 AXION_CAMERA_FRONT_INFO := 20
 
+# BCR
+TARGET_PREBUILT_BCR := false
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_beryllium
 PRODUCT_DEVICE := beryllium
