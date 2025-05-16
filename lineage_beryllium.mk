@@ -9,6 +9,14 @@ $(call inherit-product, device/xiaomi/beryllium/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Axion Flags
+AXION_MAINTAINER := Rve
+AXION_PROCESSOR := Snapdragon_845
+
+# Camera
+AXION_CAMERA_REAR_INFO := 12,5
+AXION_CAMERA_FRONT_INFO := 20
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_beryllium
 PRODUCT_DEVICE := beryllium
