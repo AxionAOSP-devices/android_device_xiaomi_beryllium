@@ -22,6 +22,11 @@ AXION_CAMERA_FRONT_INFO := 20
 # BCR
 TARGET_PREBUILT_BCR := false
 
+# LineageOS Prebuilts
+ifneq ($(WITH_GMS),true)
+TARGET_INCLUDES_LOS_PREBUILTS := true
+endif
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_beryllium
 PRODUCT_DEVICE := beryllium
