@@ -27,6 +27,9 @@ ifneq ($(WITH_GMS),true)
 TARGET_INCLUDES_LOS_PREBUILTS := true
 endif
 
+# Blur effects
+TARGET_ENABLE_BLUR := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_beryllium
 PRODUCT_DEVICE := beryllium
