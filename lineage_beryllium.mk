@@ -35,6 +35,10 @@ PERF_GOV_SUPPORTED := true
 PERF_DEFAULT_GOV := schedutil
 PERF_ANIM_OVERRIDE := true
 
+# GPU
+GPU_FREQS_PATH := /sys/class/kgsl/kgsl-3d0/gpu_available_frequencies
+GPU_MIN_FREQ_PATH := /sys/class/kgsl/kgsl-3d0/min_clock_mhz
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_beryllium
 PRODUCT_DEVICE := beryllium
